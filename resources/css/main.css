@@ -1,0 +1,160 @@
+.main section.mainVisual{
+    display: flex;
+    position: relative;
+}
+.main section.mainVisual .bgBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.main section.mainVisual .bgBox img{
+    width: 100%;
+    max-width: 100%;
+}
+.main section.mainVisual .titleSlide{
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+}
+.main section.mainVisual .titleSlide .item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main section.mainVisual .titleSlide .item .subTitle{
+    
+    margin-top: 30px;
+}
+.main section.mainVisual .imageSlide{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.main section.mainVisual .imageSlide .item{
+    display: flex;
+    justify-content: flex-end;
+}
+.main section.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.main section.about .aboutLogo{
+    display: flex;
+    justify-content: center;    
+}
+.main section.about .aboutItem{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin-top: 30px;
+}
+.main section.about .aboutItem .item{
+    flex: 0 0 30%;
+    max-width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main section.about .aboutItem .item dl{
+    text-align: center;    
+}
+.main section.about .aboutItem .item dl dt{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.main section.about .aboutItem .item dl dd{
+    margin-top: 15px;
+    color: #798793;
+}
+.main section.liveCommerce{
+    position: relative;
+    background-image: url(/resources/images/main/liveCommerceBg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.main section.liveCommerce .title{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.main section.liveCommerce .imageBox{
+    margin-top: 30px; 
+    position: relative;
+    max-width: 380px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.main section.liveCommerce .imageBox .mockup{
+    position: absolute;
+    width: 100%;
+    top: 0 ;
+    left: 0;
+}
+.main section.liveCommerce .imageBox .liveOn{
+    border-radius: 80px;
+    overflow: hidden;
+}
+.main section.untact{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.main section.untact .imageBox{
+    
+    display: flex;
+    justify-content: center;
+}
+.main section.untact .textBox{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main section.untact .textBox .subTitle{
+    margin-top: 30px;
+}
+.main section.untact .textBox a{
+    margin-top: 30px;
+    color: #e65564;
+    border: 1px solid #e65564;
+    display: block;
+    padding: 15px 50px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.main section.untact .textBox a::before{
+    background-color: #e65564;
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: all 0.3s;
+    z-index: -1;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.main section.untact .textBox a:hover{
+    color: #fff;
+}
+.main section.untact .textBox a:hover::before{
+    transform: scale(1);
+}

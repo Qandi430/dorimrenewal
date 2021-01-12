@@ -4,4 +4,4 @@
 <link rel="stylesheet" href="./resources/css/animate.css">
 <link rel="stylesheet" href="./resources/css/reset.css">
 <link rel="stylesheet" href="./resources/css/common.css">
-<link rel="stylesheet" href="./resources/css/<?=$page?>.css">
+<link rel="stylesheet" href="./resources/css/<?=$pageName?>.css">
