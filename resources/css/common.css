@@ -16,3 +16,18 @@ header nav ul li a{
     max-width: 100%;
     width:auto;
 }
+
+footer{
+    background-image: url(/resources/images/common/footerBg.png);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 275px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px;
+}
+footer .copyright{
+    color: #fff;
+}
