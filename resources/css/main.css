@@ -158,3 +158,151 @@
 .main section.untact .textBox a:hover::before{
     transform: scale(1);
 }
+
+.main section.process{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main section.process .subTitle{
+    color: #4043ff;
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+.main section.process .title{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.7rem;
+    margin-top: 15px;
+}
+.main section.process .processList{
+    max-width: 960px;
+    margin-top: 50px;
+}
+.main section.process .processList ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main section.process .processList ul li{
+    flex: 0 0 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 320px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+.main section.process .processList ul li::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background: #f4f6f8;
+}
+.main section.process .processList ul li::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fea951+0,f15482+99 */
+    background: #fea951; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #fea951 0%, #f15482 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #fea951 0%,#f15482 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #fea951 0%,#f15482 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fea951', endColorstr='#f15482',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    z-index: -1;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.main section.process .processList ul li:nth-child(n+4){
+    margin-top: 2%;
+}
+.main section.process .processList ul li .num{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #727272;
+}
+.main section.process .processList ul li dl{
+    text-align: center;
+    margin-top: 25px;
+}
+.main section.process .processList ul li dl dt{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.main section.process .processList ul li dl dd{
+    margin-top: 10px;
+    line-height: 1.8;
+    transform: scaleY(0);
+    transition: all 0.5s;
+}
+.main section.process .processList ul li a{
+    background-color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.main section.process .processList ul li:hover{
+    transform: translate(-3px,-3px);
+    
+}
+.main section.process .processList ul li:hover::after{
+    opacity: 1;
+}
+.main section.process .processList ul li:hover dl dd{
+    transform: scaleY(1);
+}
+.main section.portfolio{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main section.portfolio .title{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.7rem;
+}
+.main section.portfolio .portfolioList{
+    max-width: 1170px;
+    margin-top: 50px;
+}
+.main section.portfolio .portfolioList ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main section.portfolio .portfolioList ul li{
+    flex: 0 0 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+.main section.portfolio .portfolioList ul li:nth-child(n+4){
+    margin-top: 2%;
+}

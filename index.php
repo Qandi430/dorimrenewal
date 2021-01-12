@@ -116,9 +116,107 @@
             <a href="#">MORE</a>
         </div>
     </section>
-    <section class="contents work">
-        <h5 class="subTitle"></h5>
+    <section class="contents process">
+        <h5 class="subTitle">D &amp; D Company</h5>
+        <h1 class="title">WORK PROCESS</h1>
+        <div class="processList">
+            <ul>
+                <li class="process">
+                    <h3 class="num">1</h3>
+                    <dl>
+                        <dt>Clean Code</dt>
+                        <dd>
+                            With your logo design finalized.<br>
+                            download a social media kit, business
+                        </dd>
+                    </dl>
+                    <a href="#">Learn More</a>
+                </li>
+                <li class="process">
+                    <h3 class="num">2</h3>
+                    <dl>
+                        <dt>Design Included</dt>
+                        <dd>
+                            With your logo design finalized.<br>
+                            download a social media kit, business
+                        </dd>
+                    </dl>
+                    <a href="#">Learn More</a>
+                </li>
+                <li class="process">
+                    <h3 class="num">3</h3>
+                    <dl>
+                        <dt>Responsive Design</dt>
+                        <dd>
+                            With your logo design finalized.<br>
+                            download a social media kit, business
+                        </dd>
+                    </dl>
+                    <a href="#">Learn More</a>
+                </li>
+                <li class="process">
+                    <h3 class="num">4</h3>
+                    <dl>
+                        <dt>Great Documentation</dt>
+                        <dd>
+                            With your logo design finalized.<br>
+                            download a social media kit, business
+                        </dd>
+                    </dl>
+                    <a href="#">Learn More</a>
+                </li>
+                <li class="process">
+                    <h3 class="num">5</h3>
+                    <dl>
+                        <dt>Online Support</dt>
+                        <dd>
+                            With your logo design finalized.<br>
+                            download a social media kit, business
+                        </dd>
+                    </dl>
+                    <a href="#">Learn More</a>
+                </li>
+                <li class="process">
+                    <h3 class="num">6</h3>
+                    <dl>
+                        <dt>Free Updates</dt>
+                        <dd>
+                            With your logo design finalized.<br>
+                            download a social media kit, business
+                        </dd>
+                    </dl>
+                    <a href="#">Learn More</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="contents portfolio">
+        <h1 class="title">
+            Portfolio
+        </h1>
+        <div class="portfolioList">
+            <ul>
+                <li><img src="/resources/images/portfolio/yeongdeok/yeongdeok1.jpeg" alt="" class="img-fluid"></li>
+                <li><img src="/resources/images/portfolio/ipkn/ipkn1.jpeg" alt="" class="img-fluid"></li>
+                <li><img src="/resources/images/portfolio/seek/seek1.jpeg" alt="" class="img-fluid"></li>
+                <li><img src="/resources/images/portfolio/juno/juno1.jpeg" alt="" class="img-fluid"></li>
+                <li><img src="/resources/images/portfolio/devine/devine1.jpeg" alt="" class="img-fluid"></li>
+                <li><img src="/resources/images/portfolio/jinwoo/jinwoo1.jpeg" alt="" class="img-fluid"></li>
+                <li><img src="/resources/images/portfolio/tsi/tsi1.jpeg" alt="" class="img-fluid"></li>
+                <li><img src="/resources/images/portfolio/smartSwing/smartSwing1.jpeg" alt="" class="img-fluid"></li>
+                <li><img src="/resources/images/portfolio/yeongdeokYoutube/yeongdeokYoutube1.jpeg" alt="" class="img-fluid"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="contents pricing">
         <h1 class="title"></h1>
+        <h6 class="subTitle"></h6>
+        <div class="pricingList">
+            <ul>
+                <li class="start"></li>
+                <li class="business"></li>
+            </ul>
+        </div>
     </section>
 </div>
 <script>
