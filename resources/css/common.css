@@ -1,9 +1,18 @@
+#wrap{
+    padding-top: 90px;
+}
 header{
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
 }
 header nav ul{
     display: flex;
@@ -11,6 +20,30 @@ header nav ul{
 header nav ul li a{
     display: block;
     padding: 5px 10px;
+}
+header .mobileBtn{
+    display: none;
+}
+header .mobileBtn a{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: block;
+    /* background-color: #f11; */
+    overflow: hidden;
+}
+header .mobileBtn a > i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.6rem;
+}
+header .mobileBtn a > i.off{
+    top: 50%;
+}
+header .mobileBtn a > i.on{
+    top: -100%;
 }
 .owl-carousel .owl-item img{
     max-width: 100%;
@@ -30,4 +63,42 @@ footer{
 }
 footer .copyright{
     color: #fff;
+}
+@media screen and (max-width: 768px) {
+    #wrap{
+        padding-top: 50px;
+    }
+    header{
+        padding: 5px 10px;
+    }
+    header .logo img{
+        max-height: 35px;
+    }
+    header nav{
+        position: fixed;
+        height: calc(100vh - 50px);
+        top: 50px;
+        right: -100%; 
+        transition: all 0.5s;
+        background-color: #fff;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobileMenuOpen header nav{
+        right: 0;
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul li+ li{
+        margin-top: 15px;
+    }
+    header nav ul li a{
+        font-size: 1.8rem;
+    }
+    header .mobileBtn{
+        display: block;
+    }
 }

@@ -47,5 +47,22 @@
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
+        <div class="mobileBtn">
+            <a href="#">
+                <i class="fas fa-align-right off"></i>
+                <i class="fas fa-times on"></i>
+            </a>
+        </div>
     </header>
-    
+    <script>
+        $(".mobileBtn a").click(function(e){
+            e.preventDefault();
+
+            if($("body").hasClass("mobileMenuOpen")){
+                $("body").removeClass("mobileMenuOpen");
+            }else{
+                $("body").addClass("mobileMenuOpen");
+            }
+            
+        })
+    </script>
