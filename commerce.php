@@ -1,119 +1,54 @@
 <?
-    $pageName = 'main';
+    $pageName = 'commerce';
     include_once("./include/header.php")
 ?>
 <div id="wrap" class="<?=$pageName?>">
-    <section class="contents mainVisual">
-        <div class="bgBox">
-            <img src="./resources/images/main/mainBg.png" alt="">
+    <section class="mainVisual">
+        <div class="titleBox">
+            <h2 class="title">라이브커머스 아무에게나 맡기지 마세요.</h2>
+            <h5 class="subTitle">D&D 에서 간편하고 퀄리티있게</h5>
         </div>
-        <div class="titleSlide">
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="titleWrap">
-                        <h1 class="title">
-                            <img src="./resources/images/main/mainTitle01.png" alt="" class="img-fluid">
-                        </h1>
-                        <h5 class="subTitle">
-                            <img src="./resources/images/main/mainSubTitle01.png" alt="" class="img-fluid">
-                        </h5>
-                    </div>
+        <div class="contentsBox">
+            <div class="bg">
+                <img src="./resources/images/commerce/visualBg.png" alt="" class="visualBg">
+                <div class="visualText01">
+                    <img src="./resources/images/commerce/visualText01.png" alt="" class="wow fadeIn">
                 </div>
-                <div class="item">
-                    <div class="titleWrap">
-                        <h1 class="title">
-                            <img src="./resources/images/main/mainTitle01.png" alt="" class="img-fluid">
-                        </h1>
-                        <h5 class="subTitle">
-                            <img src="./resources/images/main/mainSubTitle01.png" alt="" class="img-fluid">
-                        </h5>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="titleWrap">
-                        <h1 class="title">
-                            <img src="./resources/images/main/mainTitle01.png" alt="" class="img-fluid">
-                        </h1>
-                        <h5 class="subTitle">
-                            <img src="./resources/images/main/mainSubTitle01.png" alt="" class="img-fluid">
-                        </h5>
-                    </div>
+                <div class="visualText02">
+                    <img src="./resources/images/commerce/visualText02.png" alt="" class="wow fadeIn">
                 </div>
             </div>
-        </div>
-        <div class="imageSlide">
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img src="./resources/images/main/mainImage01.png" alt="" class="img-fluid">
+            <div class="contents">
+                <div class="left">
+                    <h3 class="text top wow fadeInRight">#다양한 상품<br>직 ·간접 체험</h3>
+                    <h3 class="text mid wow fadeInRight">#브랜딩</h3>
+                    <h3 class="text bottom wow fadeInRight">#실시간 판매</h3>
                 </div>
-                <div class="item">
-                    <img src="./resources/images/main/mainImage01.png" alt="" class="img-fluid">
+                <div class="center">
+                    <img src="./resources/images/commerce/phoneImage.png" alt="" class="phoneImage">
                 </div>
-                <div class="item">
-                    <img src="./resources/images/main/mainImage01.png" alt="" class="img-fluid">
+                <div class="right">
+                    <h3 class="text top wow fadeInLeft">#다양한 이벤트 안내</h3>
+                    <h3 class="text mid wow fadeInLeft">#실시간구매욕구 자극 </h3>
+                    <h3 class="text bottom wow fadeInLeft">#고객과의 실시간 소통  </h3>
                 </div>
             </div>
         </div>
     </section>
-    <section class="contents about">
-        <div class="aboutLogo">
-            <img src="./resources/images/main/aboutLogo.png" alt="" class="img-fluid">
-        </div>
-        <div class="aboutItem">
-            <div class="item item01">
-                <div class="icon">
-                    <img src="./resources/images/main/aboutIcon.png" alt="" class="img-fluid">
-                </div>
-                <dl>
-                    <dt>트렌드와 니즈</dt>
-                    <dd>
-                        Development of the process and/or information flow of the system (i.e. for phone tree systems, this would be an option tree flowchart.
-                    </dd>
-                </dl>
-            </div>
-            <div class="item item02">
-                <div class="icon">
-                    <img src="./resources/images/main/aboutIcon.png" alt="" class="img-fluid">
-                </div>
-                <dl>
-                    <dt>D&amp;D와 클라이언트</dt>
-                    <dd>
-                        Development of the process and/or information flow of the system (i.e. for phone tree systems, this would be an option tree flowchart.
-                    </dd>
-                </dl>
-            </div>
-            <div class="item item03">
-                <div class="icon">
-                    <img src="./resources/images/main/aboutIcon.png" alt="" class="img-fluid">
-                </div>
-                <dl>
-                    <dt>클라이언트와 소비자</dt>
-                    <dd>
-                        Development of the process and/or information flow of the system (i.e. for phone tree systems, this would be an option tree flowchart.
-                    </dd>
-                </dl>
-            </div>
-        </div>
+    <section class="partners">
+        <ul class="partnerList">
+            <li class="grip wow fadeIn" data-wow-delay="0.5s"><img src="./resources/images/commerce/grip.png" alt="" class="img-fluid"></li>
+            <li class="coupang wow fadeIn" data-wow-delay="0.7s"><img src="./resources/images/commerce/coupang.png" alt="" class="img-fluid"></li>
+            <li class="ping wow fadeIn" data-wow-delay="0.9s"><img src="./resources/images/commerce/liveShowPing.png" alt="" class="img-fluid"></li>
+            <li class="naver wow fadeIn" data-wow-delay="1.1s"><img src="./resources/images/commerce/shoppingLive.png" alt="" class="img-fluid"></li>
+            <li class="tmon wow fadeIn" data-wow-delay="1.3s"><img src="./resources/images/commerce/tmon.png" alt="" class="img-fluid"></li>
+            <li class="ssg wow fadeIn" data-wow-delay="1.5s"><img src="./resources/images/commerce/ssg.png" alt="" class="img-fluid"></li>
+        </ul>
     </section>
     <section class="contents liveCommerce">
-        <h1 class="title">언텍트시대에 라이브 커머스로 온텍트 하세요.</h1>
         <div class="imageBox">
             <div class="liveOn"><img src="./resources/images/main/liveCommerceOn.gif" alt="" class="img-fluid"></div>
             <div class="mockup"><img src="./resources/images/main/phoneMockup.png" alt="" class="img-fluid"></div>
-        </div>
-    </section>
-    <section class="contents untact">
-        <div class="imageBox">
-            <img src="./resources/images/main/untactImage.png" alt="" class="img-fluid">
-        </div>
-        <div class="textBox">
-            <h1 class="title">
-                <img src="./resources/images/main/untactTitle.png" alt="" class="img-fluid">
-            </h1>
-            <h5 class="subTitle">
-                <img src="./resources/images/main/unTactSubTitle.png" alt="" class="img-fluid">
-            </h5>
-            <a href="#">MORE</a>
         </div>
     </section>
     <section class="contents process">
@@ -238,35 +173,6 @@
                     </dl>
                     <a href="#">Learn More</a>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="contents portfolio">
-        <h1 class="title">
-            Portfolio
-        </h1>
-        <div class="portfolioList">
-            <ul>
-                <li><img src="./resources/images/portfolio/yeongdeok/yeongdeok1.jpeg" alt="" class="img-fluid"></li>
-                <li><img src="./resources/images/portfolio/ipkn/ipkn1.jpeg" alt="" class="img-fluid"></li>
-                <li><img src="./resources/images/portfolio/seek/seek1.jpeg" alt="" class="img-fluid"></li>
-                <li><img src="./resources/images/portfolio/juno/juno1.jpeg" alt="" class="img-fluid"></li>
-                <li><img src="./resources/images/portfolio/devine/devine1.jpeg" alt="" class="img-fluid"></li>
-                <li><img src="./resources/images/portfolio/jinwoo/jinwoo1.jpeg" alt="" class="img-fluid"></li>
-                <li><img src="./resources/images/portfolio/tsi/tsi1.jpeg" alt="" class="img-fluid"></li>
-                <li><img src="./resources/images/portfolio/smartSwing/smartSwing1.jpeg" alt="" class="img-fluid"></li>
-                <li><img src="./resources/images/portfolio/yeongdeokYoutube/yeongdeokYoutube1.jpeg" alt="" class="img-fluid"></li>
-            </ul>
-            <div class="owl-carousel owl-theme">
-                <div class="item"><img src="./resources/images/portfolio/yeongdeok/yeongdeok1.jpeg" alt="" class="img-fluid"></div>
-                <div class="item"><img src="./resources/images/portfolio/ipkn/ipkn1.jpeg" alt="" class="img-fluid"></div>
-                <div class="item"><img src="./resources/images/portfolio/seek/seek1.jpeg" alt="" class="img-fluid"></div>
-                <div class="item"><img src="./resources/images/portfolio/juno/juno1.jpeg" alt="" class="img-fluid"></div>
-                <div class="item"><img src="./resources/images/portfolio/devine/devine1.jpeg" alt="" class="img-fluid"></div>
-                <div class="item"><img src="./resources/images/portfolio/jinwoo/jinwoo1.jpeg" alt="" class="img-fluid"></div>
-                <div class="item"><img src="./resources/images/portfolio/tsi/tsi1.jpeg" alt="" class="img-fluid"></div>
-                <div class="item"><img src="./resources/images/portfolio/smartSwing/smartSwing1.jpeg" alt="" class="img-fluid"></div>
-                <div class="item"><img src="./resources/images/portfolio/yeongdeokYoutube/yeongdeokYoutube1.jpeg" alt="" class="img-fluid"></div>
             </div>
         </div>
     </section>
@@ -446,13 +352,6 @@
         </div>
     </section>
 </div>
-<script>
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    nav:false,
-    items : 1
-})
-</script>
 <?
     include_once("./include/footer.php")
 ?>

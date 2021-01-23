@@ -1,0 +1,455 @@
+.commerce section.mainVisual{
+    position: relative;
+    /* align-items: center; */
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.commerce section.mainVisual .titleBox .title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.commerce section.mainVisual .titleBox .subTitle{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #8e969e;
+}
+.commerce section.mainVisual .contentsBox{
+    position: relative;
+    padding-bottom: 200px;
+}
+.commerce section.mainVisual .contentsBox .bg{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.commerce section.mainVisual .contentsBox .bg .visualText01{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.commerce section.mainVisual .contentsBox .bg .visualText02{
+    position: absolute;
+    bottom: -150px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.commerce section.mainVisual .contentsBox .contents{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.commerce section.mainVisual .contentsBox .contents > div{
+    flex: 0 0 33.333%;
+    padding-bottom: 100px;
+}
+.commerce section.mainVisual .contentsBox .contents > div.center{
+    padding-bottom: 0;
+}
+.commerce section.mainVisual .contentsBox .contents .phoneImage{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.commerce section.mainVisual .contentsBox .contents .text{
+    font-weight: bold;
+    color: #fff;
+    font-size: 3rem;
+}
+.commerce section.mainVisual .contentsBox .contents .text + .text{
+    margin-top:50px;
+}
+
+.commerce section.mainVisual .contentsBox .contents .left .text{
+    text-align: right;
+}
+.commerce section.mainVisual .contentsBox .contents .right.text{
+    text-align: left;
+}
+.commerce section.partners{
+    padding: 150px 0;
+}
+.commerce section.partners ul.partnerList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.commerce section.partners ul.partnerList li{
+    flex: 0 0 30%;
+}
+.commerce section.liveCommerce{
+    position: relative;
+    background-image: url(../images/main/liveCommerceBg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.commerce section.liveCommerce .imageBox{
+    margin-top: 30px; 
+    position: relative;
+    max-width: 380px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.commerce section.liveCommerce .imageBox .mockup{
+    position: absolute;
+    width: 100%;
+    top: 0 ;
+    left: 0;
+}
+.commerce section.liveCommerce .imageBox .liveOn{
+    border-radius: 80px;
+    overflow: hidden;
+}
+
+.commerce section.process{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.commerce section.process .subTitle{
+    color: #4043ff;
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+.commerce section.process .title{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.7rem;
+    margin-top: 15px;
+}
+.commerce section.process .processList{
+    max-width: 960px;
+    margin-top: 50px;
+    width: 100%;
+}
+.commerce section.process .processList ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.commerce section.process .processList .owl-carousel{
+    display: none;
+}
+.commerce section.process .processList .process{
+    flex: 0 0 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 320px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+.commerce section.process .processList .process::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background: #f4f6f8;
+}
+.commerce section.process .processList .process::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fea951+0,f15482+99 */
+    background: #fea951; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #fea951 0%, #f15482 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #fea951 0%,#f15482 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #fea951 0%,#f15482 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fea951', endColorstr='#f15482',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    z-index: -1;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.commerce section.process .processList .process:nth-child(n+4){
+    margin-top: 2%;
+}
+.commerce section.process .processList .process .num{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #727272;
+}
+.commerce section.process .processList .process dl{
+    text-align: center;
+    margin-top: 25px;
+    height: 92px;
+}
+.commerce section.process .processList .process dl dt{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.commerce section.process .processList .process dl dd{
+    margin-top: 10px;
+    line-height: 1.8;
+    transform: scaleY(0);
+    transition: all 0.5s;
+    padding: 0 10px;
+}
+.commerce section.process .processList .process a{
+    background-color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.commerce section.process .processList .process:hover{
+    transform: translate(-3px,-3px);
+    
+}
+.commerce section.process .processList .process:hover::after{
+    opacity: 1;
+}
+.commerce section.process .processList .process:hover dl dd{
+    transform: scaleY(1);
+}
+.commerce section.pricing{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.commerce section.pricing > .title{
+    font-size: 3rem;
+    letter-spacing: 0.7rem;
+    
+}
+.commerce section.pricing > .title span{
+    font-size: 3rem;
+    font-weight: 100;
+}
+.commerce section.pricing > .subTitle{
+    margin-top: 15px;
+    text-align: center;
+    color: #939fa4;
+}
+.commerce section.pricing > .pricingList{
+    margin-top: 30px;
+}
+.commerce section.pricing > .pricingList > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.commerce section.pricing > .pricingList .owl-carousel{
+    display: none;
+}
+.commerce section.pricing > .pricingList .item{
+    flex: 0 0 32%;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.commerce section.pricing > .pricingList .item::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fea951+0,f15482+99 */
+    background: #fea951; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #fea951 0%, #f15482 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #fea951 0%,#f15482 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #fea951 0%,#f15482 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fea951', endColorstr='#f15482',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    z-index: -1;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.commerce section.pricing > .pricingList .item:hover:before{
+    opacity: 1;
+}
+.commerce section.pricing > .pricingList .item > .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 1.6rem;
+}
+.commerce section.pricing > .pricingList .item:hover > .title{
+    color: #fff; 
+}
+.commerce section.pricing > .pricingList .item > .explane{
+    color: #939fa4;
+    margin-top:10px;
+}
+.commerce section.pricing > .pricingList .item:hover > .explane{
+    color: #fff; 
+}
+.commerce section.pricing > .pricingList .item > .optionList{
+    margin-top: 30px;
+}
+.commerce section.pricing > .pricingList .item > .optionList > ul + ul{
+    margin-top: 10px;
+}
+.commerce section.pricing > .pricingList .item > .optionList li{
+    position: relative;
+    padding-left: 25px;
+}
+.commerce section.pricing > .pricingList .item:hover > .optionList li{
+    color: #fff; 
+}
+.commerce section.pricing > .pricingList .item > .optionList li + li{
+    margin-top: 10px;
+}
+.commerce section.pricing > .pricingList .item > .optionList li::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    color: #fff;
+    
+}
+.commerce section.pricing > .pricingList .item > .optionList li.able::before{
+    content:'✓'; 
+    background-color: #fa709a;
+}
+.commerce section.pricing > .pricingList .item > .optionList li.disable::before{
+    content:'x'; 
+    background-color: #a3b1bc;
+}
+
+.commerce section.pricing > .pricingList .item > .btnWrap > a{
+    margin-top: 30px;
+    color: #e65564;
+    border: 1px solid #e65564;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.commerce section.pricing > .pricingList .item:hover > .btnWrap > a{
+    color: #fff; 
+    border-color: #fff;
+}
+
+.commerce section.pricing > .pricingList .item > .btnWrap > a::before{
+    background-color: #e65564;
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: all 0.3s;
+    z-index: -1;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.commerce section.pricing > .pricingList .item > .btnWrap > a:hover{
+    color: #fff;
+}
+.commerce section.pricing > .pricingList .item > .btnWrap > a:hover::before{
+    transform: scale(1);
+}
+
+@media screen and (max-width: 768px) {
+    .commerce section.liveCommerce{
+        padding: 50px 15px;
+    }
+    .commerce section.process{
+        padding: 50px 15px;
+    }
+    .commerce section.process .processList > ul{
+        display: none;
+    }
+    .commerce section.process .processList .owl-carousel{
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+    .commerce section.process .processList .process::after{
+        opacity: 1;
+    }
+    .commerce section.process .processList .process:hover{
+        transform: translate(0);
+        
+    }
+    .commerce section.process .processList .process dl dd{
+        transform: scaleY(1);
+    }
+    
+    
+    .commerce section.pricing{
+        padding: 50px 15px;
+        display: block;
+    }
+    .commerce section.pricing .title{
+        text-align: center;
+    }
+    .commerce section.pricing .subTitle{
+        text-align: center;
+    }
+    .commerce section.pricing > .pricingList > ul{
+        display: none;
+    }
+    .commerce section.pricing > .pricingList .owl-carousel{
+        display: block;
+    }
+    .commerce section.pricing > .pricingList .item:before{
+        opacity: 1;
+    }
+    .commerce section.pricing > .pricingList .item > .title{
+        color: #fff; 
+    }
+    .commerce section.pricing > .pricingList .item > .explane{
+        color: #fff; 
+    }
+    .commerce section.pricing > .pricingList .item > .optionList li{
+        color: #fff; 
+    }
+    .commerce section.pricing > .pricingList .item > .btnWrap > a{
+        color: #fff; 
+        border-color: #fff;
+    }
+    .commerce section.pricing > .pricingList .item > .btnWrap > a{
+        color: #fff;
+    }
+    .commerce section.pricing > .pricingList .item > .btnWrap > a::before{
+        transform: scale(1);
+    }
+}

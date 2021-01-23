@@ -6,5 +6,8 @@
             </p>
         </div>
     </footer>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>

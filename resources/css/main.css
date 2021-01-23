@@ -2,6 +2,7 @@
     display: flex;
     position: relative;
     flex-wrap: wrap;
+    /* align-items: center; */
 }
 .main section.mainVisual .bgBox{
     position: absolute;
@@ -39,6 +40,7 @@
 .main section.mainVisual .imageSlide .item{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .main section.about{
     display: flex;
@@ -50,6 +52,7 @@
 .main section.about .aboutLogo{
     display: flex;
     justify-content: center;    
+    align-items: center;
 }
 .main section.about .aboutItem{
     display: flex;
@@ -79,7 +82,7 @@
 }
 .main section.liveCommerce{
     position: relative;
-    background-image: url(/resources/images/main/liveCommerceBg.png);
+    background-image: url(../images/main/liveCommerceBg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center center;
@@ -119,6 +122,7 @@
     
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .main section.untact .textBox{
     padding: 0 50px;
@@ -252,6 +256,7 @@
 .main section.process .processList .process dl{
     text-align: center;
     margin-top: 25px;
+    height: 92px;
 }
 .main section.process .processList .process dl dt{
     font-size: 1.2rem;
@@ -259,6 +264,7 @@
 }
 .main section.process .processList .process dl dd{
     margin-top: 10px;
+    padding: 0 10px;
     line-height: 1.8;
     transform: scaleY(0);
     transition: all 0.5s;
@@ -471,6 +477,7 @@
 @media screen and (max-width: 768px) {
     .main section.mainVisual{
         padding: 15px 0;
+        align-items: center;
     }
     .main section.mainVisual .titleSlide{
         max-width: 100%;

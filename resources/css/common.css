@@ -51,7 +51,7 @@ header .mobileBtn a > i.on{
 }
 
 footer{
-    background-image: url(/resources/images/common/footerBg.png);
+    background-image: url(../images/common/footerBg.png);
     background-position: left top;
     background-size: cover;
     background-repeat: no-repeat;
