@@ -10,12 +10,12 @@
         </div>
         <div class="contentsBox">
             <div class="bg">
-                <img src="./resources/images/commerce/visualBg.png" alt="" class="visualBg">
+                <img src="./resources/images/commerce/visualBg.png" alt="" class="visualBg img-fluid">
                 <div class="visualText01">
-                    <img src="./resources/images/commerce/visualText01.png" alt="" class="wow fadeIn">
+                    <img src="./resources/images/commerce/visualText01.png" alt="" class="wow fadeIn img-fluid">
                 </div>
                 <div class="visualText02">
-                    <img src="./resources/images/commerce/visualText02.png" alt="" class="wow fadeIn">
+                    <img src="./resources/images/commerce/visualText02.png" alt="" class="wow fadeIn img-fluid">
                 </div>
             </div>
             <div class="contents">
@@ -28,6 +28,9 @@
                     <img src="./resources/images/commerce/phoneImage.png" alt="" class="phoneImage">
                 </div>
                 <div class="right">
+                    <h3 class="text top wow fadeInLeft viewMobile">#다양한 상품<br>직 ·간접 체험</h3>
+                    <h3 class="text mid wow fadeInLeft viewMobile">#브랜딩</h3>
+                    <h3 class="text bottom wow fadeInLeft viewMobile">#실시간 판매</h3>
                     <h3 class="text top wow fadeInLeft">#다양한 이벤트 안내</h3>
                     <h3 class="text mid wow fadeInLeft">#실시간구매욕구 자극 </h3>
                     <h3 class="text bottom wow fadeInLeft">#고객과의 실시간 소통  </h3>
@@ -351,6 +354,13 @@
             </div>
         </div>
     </section>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            nav:false,
+            items : 1
+        })
+    </script>
 </div>
 <?
     include_once("./include/footer.php")

@@ -71,6 +71,9 @@
 .commerce section.mainVisual .contentsBox .contents .right.text{
     text-align: left;
 }
+.commerce section.mainVisual .contentsBox .contents .right.text.viewMobile{
+    display: none;
+}
 .commerce section.partners{
     padding: 150px 0;
 }
@@ -388,6 +391,58 @@
 }
 
 @media screen and (max-width: 768px) {
+    .commerce section.mainVisual{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .commerce section.mainVisual .titleBox .title{
+        font-size:1.2rem;
+    }
+    .commerce section.mainVisual .titleBox .subTitle{
+        font-size:1rem;
+    }
+    .commerce section.mainVisual .contentsBox .contents{
+        position: relative;
+    }
+    .commerce section.mainVisual .contentsBox .contents .text{
+        font-size: 1rem;
+        color: #333;
+    }
+    .commerce section.mainVisual .contentsBox .contents .text + .text{
+        margin-top: 0;
+    }
+    .commerce section.mainVisual .contentsBox .contents > div.center{
+        flex: 0 0 50%;
+    }
+    .commerce section.mainVisual .contentsBox .contents > div.left{
+        display: none;
+    }
+    .commerce section.mainVisual .contentsBox .contents > div.right{
+        position: absolute;
+        width: 50%;
+        right:0;
+        bottom: 10%;
+        padding-bottom: 0px;
+        z-index: -1;
+    }
+    .commerce section.mainVisual .contentsBox .contents .right.text.viewMobile{
+        display: block;
+    }
+    .commerce section.mainVisual .contentsBox{
+        padding-bottom: 50px;
+    }
+    .commerce section.mainVisual .contentsBox .bg .visualBg{
+        height: 250px;
+    }
+    .commerce section.mainVisual .contentsBox .bg .visualText01{
+        bottom: 20px;
+    }
+    .commerce section.mainVisual .contentsBox .bg .visualText02{
+        bottom: -50px;
+    }
+    .commerce section.partners{
+        padding: 50px 15px;
+    }
     .commerce section.liveCommerce{
         padding: 50px 15px;
     }
