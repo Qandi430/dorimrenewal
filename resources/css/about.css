@@ -1,0 +1,116 @@
+.about .ci article{
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+.about .ci .logo h2{
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: 1px solid #333;
+    padding-top: 30px;
+}
+.about .ci .logo .imageBox{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.about .ci .logo dl{
+    margin-top: 30px;
+    text-align: center;
+}
+.about .ci .logo dl dt{
+    font-size: 1.8rem;
+}
+.about .ci .logo dl dd{
+    margin-top: 20px;
+    white-space: pre;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.about .ci .symbol{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.about .ci .symbol h2{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.about .ci .symbol .imageBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.about .ci .symbol p{
+    margin-top: 50px;
+    white-space: pre;
+    font-size: 1.6rem;
+}
+.about .identity{
+    position: relative;
+    /* background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/about/identityBg.png); */
+    padding:200px 0;
+    margin: 150px 0;
+}
+.about .identity .bgBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.about .identity .bgBox img{
+    width: 100%;
+    min-width: 1920px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.about .identity article{
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+.about .identity article .title{
+    text-align: center;
+}
+.about .identity article .title h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.about .identity article .identityList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.about .identity article .identityList li{
+    flex: 0 0 30%;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 20px;
+    padding: 20px 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about .identity article .identityList li dl{
+    text-align: center;
+}
+.about .identity article .identityList li dl dt{
+    font-size: 1.4rem;
+}
+.about .identity article .identityList li dl dd{
+    margin-top: 15px;
+}

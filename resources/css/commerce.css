@@ -23,6 +23,10 @@
     width: 100%;
     bottom: 0;
 }
+.commerce section.mainVisual .contentsBox .bg > img{ 
+    display: block;
+    margin: 0 auto;
+}
 .commerce section.mainVisual .contentsBox .bg .visualText01{
     position: absolute;
     bottom: 50px;
@@ -68,10 +72,10 @@
 .commerce section.mainVisual .contentsBox .contents .left .text{
     text-align: right;
 }
-.commerce section.mainVisual .contentsBox .contents .right.text{
+.commerce section.mainVisual .contentsBox .contents .right .text{
     text-align: left;
 }
-.commerce section.mainVisual .contentsBox .contents .right.text.viewMobile{
+.commerce section.mainVisual .contentsBox .contents .right .text.viewMobile{
     display: none;
 }
 .commerce section.partners{
@@ -406,7 +410,7 @@
     }
     .commerce section.mainVisual .contentsBox .contents .text{
         font-size: 1rem;
-        color: #333;
+
     }
     .commerce section.mainVisual .contentsBox .contents .text + .text{
         margin-top: 0;
@@ -425,7 +429,7 @@
         padding-bottom: 0px;
         z-index: -1;
     }
-    .commerce section.mainVisual .contentsBox .contents .right.text.viewMobile{
+    .commerce section.mainVisual .contentsBox .contents .right .text.viewMobile{
         display: block;
     }
     .commerce section.mainVisual .contentsBox{
