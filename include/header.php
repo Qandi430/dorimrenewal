@@ -45,7 +45,7 @@
                 <li><a href="/">HOME</a></li>
                 <li><a href="about.php">ABOUT</a></li>
                 <li><a href="commerce.php">LIVE COMMERCE</a></li>
-                <li><a href="#">CONTENTS</a></li>
+                <li><a href="contents.php">CONTENTS</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
