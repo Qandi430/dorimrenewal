@@ -64,6 +64,32 @@ footer{
 footer .copyright{
     color: #fff;
 }
+.inquiryButton{
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #fff;
+    background: #fea951; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #fea951 0%, #f15482 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #fea951 0%,#f15482 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #fea951 0%,#f15482 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fea951', endColorstr='#f15482',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+#inquiryModal{
+    z-index: 999999;
+}
+#inquiryModal #inquiryForm .form-group > label{
+    display: block;
+    margin-bottom: 15px;
+}
 @media screen and (max-width: 768px) {
     #wrap{
         padding-top: 50px;
